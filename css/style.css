@@ -1,0 +1,174 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Crimson text',Arial, Helvetica, sans-serif;
+}
+.bg {
+    background-image: url("https://sharonmccabe25.files.wordpress.com/2011/11/web1.jpg");
+    padding-top: 75px;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-margin{
+    margin-right: 2%;
+}
+
+.jumbotron{
+    background-color: #F6f6f6;
+}
+.navbar a:link{
+  text-decoration:  none;
+  color: white;
+  } 
+.navbar  a:visited {
+  text-decoration:  none;
+  color: white;
+  } 
+ 
+ .navbar  a:hover   {
+  text-decoration:  none;
+  color:white;
+  background-color: #282828;
+  } 
+ 
+ .navbar  a:active  {
+  text-decoration: none;
+   color:black;
+}
+#top{
+    background-color: #111010;
+    border-bottom-color: #111010;
+}
+#top h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0.8em;
+    font-size: 1.5em;
+    color: white;
+}
+.jumbotron a:link{
+  text-decoration:  none;
+  color: #333;
+  } 
+.jumbotron  a:visited {
+  text-decoration:  none;
+  color: #333;
+  } 
+ 
+ .jumbotron  a:hover   {
+  text-decoration:  none;
+  color: white;
+  } 
+ 
+ .jumbotron a:active  {
+  text-decoration: none;
+}
+.button{
+    background-color: #F6f6f6;
+    color: #333;
+    border-radius: 2px;
+    border: 1px solid #333;
+}
+nav a{
+    display: inline-block;
+    padding: 0.8em;
+    font-family: 'crimson text',Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    transition:all 0.2s ease;
+}
+.jumbotron p{
+    padding-left: 2%;
+    color: grey;
+}
+.jumbotron a{
+    display: inline-block;
+    transition:all 0.2s ease;
+}
+#about p{
+    font-family: courgette,Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-bottom: 2%;
+}
+.github:hover
+{
+        background-color: #333;
+}
+.linkedin:hover
+{
+        background-color: #0077B5;
+}
+.code-camp:hover
+{
+        background-color: #006400;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+section{
+    background-color: #F6f6f6; 
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+    height: 30%;
+    background-color: #0f0f0f;
+    color: grey;
+    font-size: 15px;
+    font-family: crimson text,Arial, Helvetica, sans-serif;
+}
+.margin{
+    margin-top: 1.5em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+#projects{
+    font-size: 17px;
+}
+.effect
+{
+  	position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect:before, .effect:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+.page-header{
+    border-bottom: 1px solid #8c8b8b;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
