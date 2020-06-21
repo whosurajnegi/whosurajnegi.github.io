@@ -1,2 +1,2 @@
-# rusty96.github.io
+# whosurajnegi.github.io
 resume
